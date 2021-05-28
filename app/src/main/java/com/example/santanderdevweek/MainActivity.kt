@@ -36,10 +36,6 @@ class MainActivity : AppCompatActivity() {
             R.id.option_1 -> {
                 Log.d("Tap", "Opção 1 selecionada!")
                 true
-            }
-            R.id.option_2 -> {
-                Log.d("Tap", "Opção 2 selecionada!")
-                true
             }else -> super.onOptionsItemSelected(item)
         }
     }
